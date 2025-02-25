@@ -1,8 +1,8 @@
   {
-    "name": "interactive-tiles",
-    "title": "Leaflet Tile Maps",
+    "name": "interactive-map-popout",
+    "title": "Interactive Map Popout",
     "description": "Embed Leaflet.js tile maps in Foundry VTT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "authors": [
       {
         "name": "HighTLCharoda",
@@ -14,8 +14,8 @@
       "verified": "12.331"
     },
     "esmodules": ["js/main.js"],
-    "styles": ["css/leaflet.css"],
-    "url": "https://github.com/HighTLCharoda/interactive-map",
-    "manifest": "https://raw.githubusercontent.com/HighTLCharoda/interactive-map/main/module.json",
-    "download": "https://github.com/HighTLCharoda/interactive-map/archive/main.zip"
+    "styles": ["css/leaflet.css","css/styles.css"],
+    "url": "https://github.com/HighTLCharoda/interactive-map-popout",
+    "manifest": "https://raw.githubusercontent.com/HighTLCharoda/interactive-map-popout/main/module.json",
+    "download": "https://github.com/HighTLCharoda/interactive-map-popout/archive/main.zip"
   }

@@ -1,0 +1,35 @@
+.map-popout-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.map-popout-container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.map-popout-container .close {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.map-popout-container .close:hover {
+    color: #ff6400;
+}
+
+.map-content {
+    max-height: 80vh;
+    overflow: auto;
+}
